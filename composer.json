@@ -3,7 +3,8 @@
     "type": "october-plugin",
     "description": "It is a very simple tracker for Projects, Roadmaps and Bugs.",
     "require": {
-        "composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "inetis/listswitch": "^1.1"
     },
     "authors": [
         {
