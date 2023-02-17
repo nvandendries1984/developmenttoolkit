@@ -27,7 +27,8 @@ columns:
         type: text
     roadmap_archive:
         label: Archive
-        type: text
+        type: inetis-list-switch
+        icon: true
     created_at:
         label: created_at
         type: datetime

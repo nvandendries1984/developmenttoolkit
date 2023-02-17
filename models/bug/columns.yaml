@@ -69,7 +69,8 @@ columns:
         invisible: false
     bug_archive:
         label: Archive
-        type: text
+        type: inetis-list-switch
+        icon: true
         searchable: true
         invisible: false
         sortable: true

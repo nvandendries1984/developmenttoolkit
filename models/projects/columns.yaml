@@ -52,4 +52,5 @@ columns:
         type: datetime
     project_archive:
         label: 'Project Archive'
-        type: text
+        type: inetis-list-switch
+        icon: true
