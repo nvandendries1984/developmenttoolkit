@@ -1,0 +1,55 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    project_owner:
+        label: Owner
+        type: text
+    project_employees:
+        label: Employees
+        type: text
+        invisible: true
+    project_start:
+        label: Start
+        type: text
+    project_deadline:
+        label: Deadline
+        type: text
+    customer_name:
+        label: 'Customer Name'
+        type: text
+    customer_number:
+        label: 'Customer Number'
+        type: text
+        invisible: true
+    customer_contact:
+        label: 'Customer Contact'
+        type: text
+        invisible: true
+    project_goal:
+        label: 'Project Goal'
+        type: text
+        invisible: true
+    project_requirements:
+        label: 'Project Requirements'
+        type: text
+        invisible: true
+    project_risks:
+        label: 'Project Risks'
+        type: text
+        invisible: true
+    project_tasks:
+        label: 'Project Tasks'
+        type: text
+        invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+    project_archive:
+        label: 'Project Archive'
+        type: text

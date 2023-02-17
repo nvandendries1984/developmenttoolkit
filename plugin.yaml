@@ -1,0 +1,48 @@
+plugin:
+    name: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+    description: "This plugin is made by NvandenDries.nl.\nIt is a very simple tracker for Projects, Roadmaps and Bugs."
+    author: 'Niels van den Dries'
+    icon: oc-icon-gears
+    homepage: 'https://nvandendries.nl'
+permissions:
+    projects:
+        tab: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+        label: Projects
+    manager:
+        tab: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+        label: Manager
+    roadmap:
+        tab: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+        label: Roadmap
+    Bugs:
+        tab: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+        label: Bugs
+navigation:
+    main-menu-item:
+        label: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
+        url: /
+        icon: icon-gears
+        permissions:
+            - manager
+        sideMenu:
+            side-menu-item:
+                label: Projects
+                url: nielsvandendries/developmenttoolkit/projects
+                icon: icon-briefcase
+                permissions:
+                    - projects
+                    - manager
+            side-menu-item2:
+                label: Roadmap
+                url: nielsvandendries/developmenttoolkit/roadmap
+                icon: icon-road
+                permissions:
+                    - roadmap
+                    - manager
+            side-menu-item3:
+                label: Bugs
+                url: nielsvandendries/developmenttoolkit/bugs
+                icon: icon-bug
+                permissions:
+                    - manager
+                    - Bugs

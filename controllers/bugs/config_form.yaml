@@ -1,0 +1,11 @@
+name: Bugs
+modelClass: NielsVanDenDries\Developmenttoolkit\Models\Bug
+form: $/nielsvandendries/developmenttoolkit/models/bug/fields.yaml
+defaultRedirect: nielsvandendries/developmenttoolkit/bugs
+create:
+    redirect: 'nielsvandendries/developmenttoolkit/bugs/update/:id'
+    redirectClose: nielsvandendries/developmenttoolkit/bugs
+update:
+    redirect: nielsvandendries/developmenttoolkit/bugs
+    redirectClose: nielsvandendries/developmenttoolkit/bugs
+preview: {  }

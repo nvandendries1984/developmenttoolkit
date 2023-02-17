@@ -1,0 +1,80 @@
+fields:
+    project_owner:
+        label: 'Project owner'
+        span: auto
+        required: 1
+        type: text
+    project_employees:
+        label: 'Project employees'
+        span: auto
+        type: text
+    project_start:
+        label: 'Project start'
+        mode: datetime
+        span: auto
+        required: 1
+        type: datepicker
+    project_deadline:
+        label: 'Project deadline'
+        mode: datetime
+        span: auto
+        required: 1
+        type: datepicker
+    project_archive:
+        label: 'Project archive'
+        span: right
+        type: switch
+tabs:
+    fields:
+        project_goal:
+            label: 'Project goal'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Project Details'
+        project_requirements:
+            label: 'Project requirements'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Project Details'
+        project_tasks:
+            label: 'Project tasks'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Project Details'
+        project_risks:
+            label: 'Project risks'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Project Details'
+        project_files:
+            label: 'Project Files'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Project Details'
+        customer_name:
+            label: 'Customer name'
+            span: left
+            required: 1
+            type: text
+            tab: 'Customer Details'
+        customer_number:
+            label: 'Customer number'
+            span: left
+            required: 1
+            type: text
+            tab: 'Customer Details'
+        customer_contact:
+            label: 'Customer contact'
+            span: left
+            required: 1
+            type: text
+            tab: 'Customer Details'

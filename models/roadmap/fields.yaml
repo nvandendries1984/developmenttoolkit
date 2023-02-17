@@ -1,0 +1,56 @@
+fields:
+    roadmap_name:
+        label: 'Roadmap name'
+        span: full
+        required: 1
+        type: text
+    roadmap_wishdate:
+        label: 'Roadmap wishdate'
+        mode: datetime
+        span: auto
+        required: 1
+        type: datepicker
+    roadmap_phase:
+        label: 'Roadmap Phase'
+        options:
+            'Establish Goals': 'Establish Goals'
+            'Gathering Inputs': 'Gathering Inputs'
+            'Creating Themes': 'Creating Themes'
+            'Prioritizing Themes': 'Prioritizing Themes'
+            'Visualize and Share': 'Visualize and Share'
+            'Revisit and Update': 'Revisit and Update'
+        showSearch: true
+        span: auto
+        type: dropdown
+    roadmap_keyindividuals:
+        label: 'Roadmap keyindividuals'
+        size: small
+        span: auto
+        required: 1
+        type: richeditor
+    roadmap_archive:
+        label: 'Roadmap archive'
+        'on': 'Yes'
+        'off': 'No'
+        span: auto
+        type: switch
+tabs:
+    fields:
+        roadmap_dependencies:
+            label: 'Roadmap dependencies'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Roadmap Details'
+        roadmap_tasks:
+            label: 'Roadmap tasks'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Roadmap Details'
+        roadmap_milestone:
+            label: 'Roadmap Milestones'
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'Roadmap Details'

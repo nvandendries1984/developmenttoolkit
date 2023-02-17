@@ -1,0 +1,82 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    bug_title:
+        label: Title
+        type: text
+        searchable: true
+    bug_reporter:
+        label: Reporter
+        type: text
+        searchable: true
+        sortable: true
+    bug_location:
+        label: Environment
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    bug_summary:
+        label: Summary
+        type: text
+        invisible: true
+    bug_log:
+        label: Log
+        type: text
+        invisible: true
+    bug_reproduction:
+        label: Reproduction
+        type: text
+        invisible: true
+    bug_results:
+        label: Results
+        type: text
+        invisible: true
+    bug_url:
+        label: URL
+        type: text
+        invisible: true
+    bug_screenshots:
+        label: Screenshots
+        type: text
+        invisible: true
+    bug_duedate:
+        label: Duedate
+        type: text
+        searchable: true
+        sortable: true
+    bug_severity:
+        label: Severity
+        type: text
+        searchable: true
+        sortable: true
+    bug_priority:
+        label: Priority
+        type: text
+        searchable: true
+        sortable: true
+    bug_assingnee:
+        label: Assingnee
+        type: text
+        searchable: true
+        sortable: true
+    bug_tags:
+        label: Tags
+        type: text
+        searchable: true
+        invisible: false
+    bug_archive:
+        label: Archive
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime

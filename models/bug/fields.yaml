@@ -1,0 +1,116 @@
+fields:
+    bug_title:
+        label: 'Bug title'
+        span: full
+        required: 1
+        type: text
+    bug_reporter:
+        label: 'Bug reporter'
+        span: auto
+        required: 1
+        type: text
+    bug_location:
+        label: 'Where is the Bug'
+        span: auto
+        showSearch: true
+        options:
+            front-end: front-end
+            back-end: back-end
+            console: console
+        required: 1
+        type: dropdown
+tabs:
+    fields:
+        bug_summary:
+            label: 'Bug summary'
+            size: small
+            span: auto
+            required: 1
+            type: richeditor
+            tab: 'Bug Details'
+        bug_log:
+            label: 'Bug log'
+            size: small
+            language: php
+            span: auto
+            type: codeeditor
+            tab: 'Bug Details'
+        bug_reproduction:
+            label: 'Steps to reproduce'
+            size: small
+            span: auto
+            required: 1
+            type: richeditor
+            tab: 'Bug Details'
+        bug_results:
+            label: 'Expected vs. actual results'
+            size: small
+            span: auto
+            required: 1
+            type: richeditor
+            tab: 'Bug Details'
+        bug_url:
+            label: 'Bug url'
+            span: auto
+            required: 1
+            type: text
+            tab: 'Bug Details'
+        bug_files:
+            label: 'Bug screenshots'
+            mode: file
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Bug Details'
+        bug_duedate:
+            label: 'Bug duedate'
+            mode: datetime
+            span: auto
+            required: 1
+            type: datepicker
+            tab: Impact
+        bug_severity:
+            label: 'Bug severity'
+            options:
+                critital: critital
+                major: major
+                minor: minor
+                trivial: trivial
+                enhancement: enhancement
+            showSearch: true
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Impact
+        bug_priority:
+            label: 'Bug priority'
+            options:
+                high: high
+                medium: medium
+                low: low
+            span: auto
+            required: 1
+            type: balloon-selector
+            tab: Impact
+        bug_assingnee:
+            label: 'Bug assingnee'
+            options:
+                'Niels van den Dries': 'Niels van den Dries'
+            showSearch: true
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Impact
+        bug_tags:
+            label: 'Bug tags'
+            span: auto
+            type: taglist
+            tab: Impact
+        bug_archive:
+            label: 'Bug archive'
+            span: auto
+            type: switch
+            tab: Impact

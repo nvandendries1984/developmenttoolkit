@@ -1,0 +1,11 @@
+name: Roadmap
+modelClass: NielsVanDenDries\Developmenttoolkit\Models\Roadmap
+form: $/nielsvandendries/developmenttoolkit/models/roadmap/fields.yaml
+defaultRedirect: nielsvandendries/developmenttoolkit/roadmap
+create:
+    redirect: 'nielsvandendries/developmenttoolkit/roadmap/update/:id'
+    redirectClose: nielsvandendries/developmenttoolkit/roadmap
+update:
+    redirect: nielsvandendries/developmenttoolkit/roadmap
+    redirectClose: nielsvandendries/developmenttoolkit/roadmap
+preview: {  }

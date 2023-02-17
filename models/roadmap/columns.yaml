@@ -1,0 +1,40 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    roadmap_phase:
+        label: Phase
+        type: text
+    roadmap_milestone:
+        label: Milestone
+        type: text
+        invisible: true
+    roadmap_tasks:
+        label: Tasks
+        type: text
+        invisible: true
+    roadmap_dependencies:
+        label: Dependencies
+        type: text
+        invisible: true
+    roadmap_keyindividuals:
+        label: Keyindividuals
+        type: text
+        invisible: true
+    roadmap_wishdate:
+        label: Wishdate
+        type: text
+    roadmap_archive:
+        label: Archive
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+    roadmap_name:
+        label: Name
+        type: text

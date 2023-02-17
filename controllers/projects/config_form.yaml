@@ -1,0 +1,11 @@
+name: Projects
+modelClass: NielsVanDenDries\Developmenttoolkit\Models\Projects
+form: $/nielsvandendries/developmenttoolkit/models/projects/fields.yaml
+defaultRedirect: nielsvandendries/developmenttoolkit/projects
+create:
+    redirect: 'nielsvandendries/developmenttoolkit/projects/update/:id'
+    redirectClose: nielsvandendries/developmenttoolkit/projects
+update:
+    redirect: nielsvandendries/developmenttoolkit/projects
+    redirectClose: nielsvandendries/developmenttoolkit/projects
+preview: {  }
