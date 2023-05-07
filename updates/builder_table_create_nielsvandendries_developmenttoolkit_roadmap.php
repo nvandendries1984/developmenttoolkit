@@ -13,6 +13,7 @@ class BuilderTableCreateNielsvandendriesDevelopmenttoolkitRoadmap extends Migrat
             $table->increments('id')->unsigned();
             $table->string('roadmap_phase');
             $table->string('roadmap_milestone');
+            $table->string('roadmap_name');
             $table->text('roadmap_tasks');
             $table->text('roadmap_dependencies');
             $table->text('roadmap_keyindividuals');

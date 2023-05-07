@@ -26,6 +26,7 @@ class BuilderTableCreateNielsvandendriesDevelopmenttoolkitBugs extends Migration
             $table->string('bug_assingnee');
             $table->string('bug_tags');
             $table->string('bug_archive');
+            $table->boolean('bug_screenshots')->nullable()->change();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });

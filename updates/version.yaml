@@ -9,9 +9,3 @@
 1.0.4:
     - 'Created table nielsvandendries_developmenttoolkit_bugs'
     - builder_table_create_nielsvandendries_developmenttoolkit_bugs.php
-1.0.5:
-    - 'Updated table nielsvandendries_developmenttoolkit_roadmap'
-    - builder_table_update_nielsvandendries_developmenttoolkit_roadmap.php
-1.0.6:
-    - 'Updated table nielsvandendries_developmenttoolkit_bugs'
-    - builder_table_update_nielsvandendries_developmenttoolkit_bugs.php
