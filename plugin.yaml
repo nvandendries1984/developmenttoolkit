@@ -1,6 +1,6 @@
 plugin:
     name: 'nielsvandendries.developmenttoolkit::lang.plugin.name'
-    description: "This plugin is made by NvandenDries.nl.\nIt is a very simple tracker for Projects, Roadmaps and Bugs."
+    description: "This plugin is made by NvandenDries.nl. It is a very simple tracker for Projects, Roadmaps and Bugs."
     author: 'Niels van den Dries'
     icon: oc-icon-gears
     homepage: 'https://nvandendries.nl'
